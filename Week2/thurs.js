@@ -40,9 +40,3 @@ const isAnagram = (str1, str2) => {
 
   return cleanStr1 === cleanStr2;
 };
-
-// Challenge 3. Return the element that appears most frequently in the array, if there's a tie, return the first one
-const mostFrequent = (arr) => {};
-
-console.log(mostFrequent([1, 3, 1, 3, 2, 1])); // 1
-console.log(mostFrequent(["a", "b", "a", "b"])); // "a"
